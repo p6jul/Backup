@@ -3,7 +3,6 @@
 
 # Script de sauvegarde d'un site internet  et de sa BDD vers un FTP
 
-
 ### Importation de la biblioteque des modules qui va permettre d'utiliser des definitions et des instructions ###
 print("Importation des modules")
 #Import des modules qui gerent les fichiers et les dossiers
@@ -27,6 +26,7 @@ date = (time.strftime("%d-%m"))
 ###############################################################
 # Entrer vos parametres a la place des characteres ********** #
 ###############################################################
+
 # Informations FTP
 ipftp = '**********'
 userftp = '********'
@@ -101,5 +101,6 @@ shutil.rmtree(destsql)
 
 # Decommenter la derniere ligne si vous ne voulez pas garder une sauvegarde en local
 # Pour decommenter une ligne suprimer le cararactere '#' en debut de ligne
+
 # Suppression du Backup local
 #shutil.rmtree(destdir)

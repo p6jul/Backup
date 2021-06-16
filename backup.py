@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# Script de sauvegarde d'un site internet  et de sa BDD vers un FTP
+# Script de sauvegarde d'un site internet et de sa BDD vers un FTP
 
 ### Importation de la biblioteque des modules qui va permettre d'utiliser des definitions et des instructions ###
 print("Importation des modules")
@@ -20,12 +20,12 @@ print("Importation terminee")
 
 ### Creation des variables ###
 print("Lecture des variables")
-# Date du jour
+# Date du jour (Vous pouvez rajouter l annee ("%d-%m-%Y") )
 date = (time.strftime("%d-%m"))
 
-###############################################################
-# Entrer vos parametres a la place des characteres ********** #
-###############################################################
+#################################################################
+# Entrer vos parametres a la place des characteres *** entre '' #
+#################################################################
 
 # Informations FTP
 ipftp = '**********'
@@ -39,16 +39,16 @@ mdpsql = '*********'
 hostsql = '*********'
 basesql = '********'
 
-# Nom du site
+# Nom du site 
 site_name = '******'
 
-# Dossier de destination du backup local
+# Dossier de destination du backup local (exemple:'/backupsite')
 destdir = '********'
 
-# Dossier de destination du dump SQL
+# Dossier de destination du dump SQL (exemple:'/backupsite/sql')
 destsql = '***********'
 
-# Dossier du site internet a sauvegarder
+# Dossier du site internet a sauvegarder (par defaut le site est dans: /var/www/html)
 site_dir = '************'
 
 ###########################################
@@ -101,6 +101,5 @@ shutil.rmtree(destsql)
 
 # Decommenter la derniere ligne si vous ne voulez pas garder une sauvegarde en local
 # Pour decommenter une ligne suprimer le cararactere '#' en debut de ligne
-
 # Suppression du Backup local
 #shutil.rmtree(destdir)

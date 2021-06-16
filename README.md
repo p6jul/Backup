@@ -1,5 +1,5 @@
 # Backup
-Backup est un script en Python 3.
+Backup est un script en Python.
 
 Il a été test sous les distributions Linux Debian 9 et 10.
 

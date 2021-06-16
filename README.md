@@ -15,7 +15,10 @@ Il garde par défaut une sauvegarde en local.
 # Prérequis
 Debian 9 ou 10
 
-Python 3. Pour l'installer sudo apt-get install python3
+Python 3. Pour l'installer :/#sudo apt-get install python3
 
 # Installation
-
+1) Télécharger le script ou un copier coller dans votre éditeur de texte.
+2) Placer le à la racine de votre disque.
+3) Mettre les droits d'exécution avec la commande :/#chmod +x backup.py
+4) Éditer le script pour enregistrer vos paramètres.

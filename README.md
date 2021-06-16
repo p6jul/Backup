@@ -30,5 +30,3 @@ Python 3. Pour l'installer :/#sudo apt-get install python3
 
 /#sudo apt-get install dos2unix
 
-
-# Option

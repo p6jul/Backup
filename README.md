@@ -67,7 +67,23 @@ Pour décommenter une ligne supprimer le caractère "#" en début de ligne
 # Exécution
 Pour exécuter le script taper la commande :/# sudo python3 backup.py
 
+# Erreur d'exécution
+Selon, comment vous avez importé le script (exemple de Windows vers une machine virtuel Linux)
 
+Ou éditer le script avec certain éditeur (exemple visual studio code)
 
-/#sudo apt-get install dos2unix
+Vous pouvez avoir une erreur d'exécution à cause des caractères non reconnus.
+
+Il faut installer le paquet dos2unix avec la commande:/#sudo apt-get install dos2unix
+
+Et ensuite executer la commande :/#sudo dos2unix backup.py
+
+# Automatisation du script
+Vous pouvez automatiser l'exécution du script avec Crontab.
+
+Par exemple pour que le script s'exécute tous les jours à 23h30.
+
+Dans la console, vous tapez la commande ;/# sudo crontab -e
+
+Votre éditeur de texte apparaît et vous rentrez : 30 23 * * * /root/python3 backup.py
 

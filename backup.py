@@ -20,7 +20,7 @@ print("Importation terminee")
 
 ### Creation des variables ###
 print("Lecture des variables")
-# Date du jour (Vous pouvez rajouter l annee ("%d-%m-%Y") )
+# Date du jour 
 date = (time.strftime("%d-%m"))
 
 #################################################################

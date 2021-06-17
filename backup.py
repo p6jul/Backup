@@ -24,7 +24,7 @@ print("Lecture des variables")
 date = (time.strftime("%d-%m"))
 
 #################################################################
-# Entrer vos parametres a la place des characteres *** entre '' #
+# Entrer vos parametres a la place des caractère *** entre '' #
 #################################################################
 
 # Informations FTP
@@ -100,6 +100,6 @@ print("Suppression du dump SQL")
 shutil.rmtree(destsql)
 
 # Decommenter la derniere ligne si vous ne voulez pas garder une sauvegarde en local
-# Pour decommenter une ligne suprimer le cararactere '#' en debut de ligne
+# Pour decommenter une ligne suprimer le caractère '#' en debut de ligne
 # Suppression du Backup local
 #shutil.rmtree(destdir)

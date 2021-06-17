@@ -1,5 +1,5 @@
 # Backup
-Backup est un script en Python.
+Backup est un scripte en Python.
 
 Il a été test sous les distributions Linux Debian 9 et 10.
 
@@ -26,7 +26,7 @@ Python 3. Pour l'installer :/#sudo apt-get install python3
 # Edition des variables du script
 Les Variables a modifier sont signalées entre deux encadrés dans le script.
 
-Remplacer les characteres **** par vos paramètres
+Remplacer les caractères **** par vos paramètres
 
 #Informations FTP
 1) ipftp = '******'     Rentrer l'addresse Ip ou le nom d'hote du serveur FTP
@@ -53,6 +53,13 @@ Remplacer les characteres **** par vos paramètres
 
 #Dossier du site internet a sauvegarder 
 1) site_dir = '******' Rentrer le chemin du dossier de votre site internet. Exemple: '/var/www/html'
+
+# Option
+Par défaut le script garde aussi une sauvegarde en local. 
+
+Si vous ne voulez pas la garder et donc la supprimer décommenter la derniere ligne du script "#shutil.rmtree(destdir)".
+
+Pour décommenter une ligne supprimer le caractère "#" en début de ligne
 
 
 # Exécution

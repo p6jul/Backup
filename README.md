@@ -29,28 +29,28 @@ Les Variables a modifier sont signalées entre deux encadrés dans le script.
 Remplacer les characteres **** par vos paramètres
 
 #Informations FTP
-1) ipftp = '**********'     Rentrer l'addresse Ip ou le nom d'hote du serveur FTP
-2) userftp = '********'     Rentrer le nom d'utilisateur 
-3) mdpftp = '**********'    Rentrer le mot de passe
-4) portftp = '********'     Rentrer le port. Par defaut c'est 21
+1) ipftp = '******'     Rentrer l'addresse Ip ou le nom d'hote du serveur FTP
+2) userftp = '******'     Rentrer le nom d'utilisateur 
+3) mdpftp = '******'    Rentrer le mot de passe
+4) portftp = '******'     Rentrer le port. Par defaut c'est '21'
 
 #Informations MySQL
-1) usersql = '**********'   Rentrer le nom d'utilisateur de votre base de données
-2) mdpsql = '*********'     Rentrer le mot de passe
-3) hostsql = '*********'    R
-4) basesql = '********'
+1) usersql = '******'   Rentrer le nom d'utilisateur de votre base de données
+2) mdpsql = '******'    Rentrer le mot de passe de votre base de données
+3) hostsql = '******'   Rentrer le nom de votre serveur. Par defaut vous pouvez rentrer 'localhost'
+4) basesql = '******'   Rentrer le nom de votre base de données
 
 #Nom du site 
-site_name = '******'
+1) site_name = '******'    Rentrer le nom de votre site
 
 #Dossier de destination du backup local (exemple:'/backupsite')
-destdir = '********'
+1) destdir = '******'      
 
 #Dossier de destination du dump SQL (exemple:'/backupsite/sql')
-destsql = '***********'
+1) destsql = '******'
 
 #Dossier du site internet a sauvegarder (par defaut le site est dans: /var/www/html)
-site_dir = '************'
+1) site_dir = '******'
 
 
 # Exécution

@@ -7,6 +7,8 @@ Il a été test sous les distributions Linux Debian 9 et 10.
 # Description
 Il permet de faire une sauvegarde de votre site internet et de sa base de données compressée en tar.gz.
 
+La sauvegarde portera le nom de la date du jour et le nom de votre site.
+
 Il envoie la sauvegarde vers un serveur FTP.
 
 Il garde par défaut une sauvegarde en local.

@@ -25,14 +25,18 @@ Python 3. Pour l'installer :/#sudo apt-get install python3
 
 # Edition des variables du script
 Les Variables sont signale entre 2 encadre
+
 #################################################################
+
 #Entrer vos parametres a la place des characteres *** entre ''  #
+
 #################################################################
+
 ###########################################
+
 #Ne plus rien modifier apres cette ligne  #
+
 ###########################################
-1) Entrer vos parametres a la place des characteres *** entre '' #
-2) Ne plus rien modifier apres cette ligne
  
 
 #Informations FTP

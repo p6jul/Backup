@@ -43,14 +43,16 @@ Remplacer les characteres **** par vos paramètres
 #Nom du site 
 1) site_name = '******'    Rentrer le nom de votre site
 
-#Dossier de destination du backup local (exemple:'/backupsite')
-1) destdir = '******'      
+#Dossier de destination du backup local 
+1) destdir = '******' Rentrer le chemin du dossier où sera stocker la sauvegarde en local. Exemple: '/backupsite'     
 
-#Dossier de destination du dump SQL (exemple:'/backupsite/sql')
-1) destsql = '******'
+#Dossier de destination du dump SQL
+1) destsql = '******' Rentrer le chemin du dossier qui servira a la sauvegarde de la BDD. Exemple:'/backupsite/sql'
 
-#Dossier du site internet a sauvegarder (par defaut le site est dans: /var/www/html)
-1) site_dir = '******'
+!!! Attention !!! Le dossier sera supprimé à la fin. Considéré ce dossier comme un dossier temp
+
+#Dossier du site internet a sauvegarder 
+1) site_dir = '******' Rentrer le chemin du dossier de votre site internet. Exemple: '/var/www/html'
 
 
 # Exécution

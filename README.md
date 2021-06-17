@@ -65,7 +65,7 @@ Pour décommenter une ligne supprimer le caractère "#" en début de ligne
 
 
 # Exécution
-
+Pour exécuter le script taper la commande :/# sudo python3 backup.py
 
 
 

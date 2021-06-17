@@ -24,26 +24,13 @@ Python 3. Pour l'installer :/#sudo apt-get install python3
 4) Éditer le script pour enregistrer vos paramètres dans la partie concernée.
 
 # Edition des variables du script
-Les Variables sont signale entre 2 encadre
-
-#################################################################
-
-#Entrer vos parametres a la place des characteres *** entre ''  #
-
-#################################################################
-
-###########################################
-
-#Ne plus rien modifier apres cette ligne  #
-
-###########################################
+Les Variables a modifier sont signalées entre deux encadres.
  
-
 #Informations FTP
-ipftp = '**********'
-userftp = '********'
-mdpftp = '**********'
-portftp = '********'
+1) ipftp = '**********'
+2) userftp = '********'
+3) mdpftp = '**********'
+4) portftp = '********'
 
 #Informations MySQL
 usersql = '**********'

@@ -24,37 +24,36 @@ Python 3. Pour l'installer :/#sudo apt-get install python3
 4) Éditer le script pour enregistrer vos paramètres dans la partie concernée.
 
 # Edition des variables du script
- #################################################################
- # Entrer vos parametres a la place des characteres *** entre '' #
- #################################################################
+Les Variables sont signale entre 2 encadre
 
-# Informations FTP
+1) Entrer vos parametres a la place des characteres *** entre '' #
+2) Ne plus rien modifier apres cette ligne
+ 
+
+#Informations FTP
 ipftp = '**********'
 userftp = '********'
 mdpftp = '**********'
 portftp = '********'
 
-# Informations MySQL
+#Informations MySQL
 usersql = '**********'
 mdpsql = '*********'
 hostsql = '*********'
 basesql = '********'
 
-# Nom du site 
+#Nom du site 
 site_name = '******'
 
-# Dossier de destination du backup local (exemple:'/backupsite')
+#Dossier de destination du backup local (exemple:'/backupsite')
 destdir = '********'
 
-# Dossier de destination du dump SQL (exemple:'/backupsite/sql')
+#Dossier de destination du dump SQL (exemple:'/backupsite/sql')
 destsql = '***********'
 
-# Dossier du site internet a sauvegarder (par defaut le site est dans: /var/www/html)
+#Dossier du site internet a sauvegarder (par defaut le site est dans: /var/www/html)
 site_dir = '************'
 
-###########################################
-# Ne plus rien modifier apres cette ligne #
-###########################################
 
 # Exécution
 
